@@ -14,9 +14,8 @@ It has included a database.yml.example, please use it as a reference to create y
 - Run `rake db:create`, `rake db:migrate`
 
 ## Start project
-```sh
-rails s
-```
+- Run `rails s`
+- Visit `localhost:3000`
 
 ## Run test
 ```sh
