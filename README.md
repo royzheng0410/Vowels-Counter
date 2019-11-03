@@ -7,7 +7,7 @@ A single page application which counts amount of vowels in a user input text. Cl
 - [Node.js](http://nodejs.org/)
 
 ## Installation
-
+It has included a database.yml.example, please use it as a reference to create your own database.yml
 - Clone repo
 - Run `bundle install`
 - Run `yarn install`
