@@ -1,24 +1,25 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A single page application which counts amount of vowels in a user input text. Client side was written by ReactJS, server side was written by Ruby on Rails. Screenshots was included under ./screenshots directory.
 
-Things you may want to cover:
+## Requirements
+- [Ruby](https://www.ruby-lang.org/en/downloads/)
+- [Node.js](http://nodejs.org/)
 
-* Ruby version
+## Installation
 
-* System dependencies
+- Clone repo
+- Run `bundle install`
+- Run `yarn install`
+- Run `rake db:create`, `rake db:migrate`
 
-* Configuration
+## Start project
+```sh
+rails s
+```
 
-* Database creation
+## Run test
+```sh
+rspec spec
+```
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
